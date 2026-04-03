@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddhi Senapati - Portfolio</title>
+    <meta name="description" content="Personal portfolio and CV for Riddhi Senapati.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Parallax Background Elements -->
+    <canvas id="bg-canvas"></canvas>
+    <div class="bg-wrapper">
+        <div class="blob blob-1 parallax-bg" data-speed="1"></div>
+        <div class="blob blob-2 parallax-bg" data-speed="-1.5"></div>
+        <div class="blob blob-3 parallax-bg" data-speed="0.8"></div>
+        <div class="blob blob-4 parallax-bg" data-speed="-0.5"></div>
+    </div>
+
+    <header class="glass-nav reveal-top">
+        <nav>
+            <div class="logo shine-text">RS.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2 class="greeting reveal-left">Hello, I am</h2>
+                <h1 class="name stagger-text glow-text">Riddhi Senapati</h1>
+                <h3 class="title reveal-right delay-1">Computer Engineering Student @ HKUST</h3>
+                <p class="description reveal-up delay-2">Innovator bridging Software, Hardware, and Biotechnology. From designing drones and AI tools to scientific research, I thrive at the cross-section of creative problem solving.</p>
+                <div class="hero-buttons reveal-up delay-3">
+                    <a href="#contact" class="btn btn-primary pulse-btn">Get in Touch</a>
+                    <a href="#experience" class="btn btn-outline">Explore My Work</a>
+                </div>
+            </div>
+            <!-- Premium Profile Image -->
+            <div class="hero-image-container reveal-zoom delay-4 tilt-card float-animation">
+                <img src="profile.jpg" alt="Riddhi Senapati" class="profile-img">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title reveal-left">About Me</h2>
+            <div class="glass-card about-card tilt-card reveal-up perspective-card">
+                <p>I am highly passionate about technology, science, and the intersection of various disciplines. Currently pursuing a Bachelor of Engineering in Computer Engineering at HKUST, my experiences span across software development, electronic prototyping, and laboratory research.</p>
+                <p>Whether it's building a pesticide-spraying drone, developing AI prompts for EdTech, or exploring biodegradable plastics, I am driven by the desire to innovate and create meaningful impact.</p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title reveal-right">Education & Academics</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card tilt-card reveal-left perspective-card">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering in Computer Engineering</h3>
+                        <span class="date">The Hong Kong University of Science and Technology (HKUST), Hong Kong SAR | Expected 2029</span>
+                        <p>Currently pursuing advanced coursework in hardware-software integration, AI, and systems engineering.</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass-card tilt-card reveal-right perspective-card">
+                    <div class="timeline-content">
+                        <h3>All India Senior School Certificate Examination (CBSE)</h3>
+                        <span class="date">South Point High School, Kolkata, India | May 2025</span>
+                        <p><strong>Percentage: 94.8% (A1).</strong> Mathematics (95), Chemistry (95), Biology (97), English (98), Physics (89).</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass-card tilt-card reveal-left perspective-card">
+                    <div class="timeline-content">
+                        <h3>All India Secondary School Examination (CBSE) - 10th Grade</h3>
+                        <span class="date">South Point High School, Kolkata, India | May 2023</span>
+                        <p><strong>Percentage: 97.2% (A1).</strong> Mathematics (98), Science (96), Social Science (99), Bengali (99), English Core (94).</p>
+                    </div>
+                </div>
+                <div class="timeline-item glass-card tilt-card reveal-right perspective-card">
+                    <div class="timeline-content">
+                        <h3>Standardized Tests</h3>
+                        <span class="date">TOEFL & SAT</span>
+                        <p><strong>TOEFL iBT:</strong> 111/120 (Nov 2024)<br>
+                        <strong>SAT:</strong> 1410 (Math: 720, EBRW: 690) (Oct 2024)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="section-title reveal-left">Projects & Experience</h2>
+            <div class="grid-layout">
+                <a href="https://hte-arbitrary-programmers.vercel.app/" target="_blank" class="glass-card tilt-card project-card reveal-up delay-1 perspective-card" style="display: block;">
+                    <div style="display: flex; gap: 15px; align-items: center; margin-bottom: 15px;">
+                        <img src="hacktheeast.jpg" alt="ScholarFly Logo" style="width: 55px; height: 55px; border-radius: 12px; object-fit: cover; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.1);">
+                        <div>
+                            <h3 style="margin-bottom: 2px;">Frontend Developer & UI Designer</h3>
+                            <span class="date" style="margin-bottom: 0;">HackTheEast Hackathon | March 2026</span>
+                        </div>
+                    </div>
+                    <p>Designed ScholarFly, an AI-powered EdTech tool to generate summaries/quizzes based on notes using AWS & Lovable. Flight-boarding ticket inspired UI.</p>
+                </a>
+                <div class="glass-card tilt-card project-card reveal-up delay-2 perspective-card">
+                    <h3>Marketing & Tech Developer</h3>
+                    <span class="date">Stashtag Education Ltd. | Dec 2025 – Present</span>
+                    <p>Direct social media strategy, merchandise design, and manage tech development for AI prompts in an edtech application.</p>
+                </div>
+                <div class="glass-card tilt-card project-card reveal-up delay-3 perspective-card">
+                    <h3>Biotech Lab & Drone Innovator</h3>
+                    <span class="date">BITM, Kolkata | Jun 2020 – Jun 2023</span>
+                    <p>Built a pesticide-spraying drone from scratch. Prototyped electronic systems and applied theoretical knowledge using microbial cultures.</p>
+                </div>
+                <div class="glass-card tilt-card project-card reveal-up delay-1 perspective-card">
+                    <h3>2nd Place (High School)</h3>
+                    <span class="date">Acharya PC Ray Chem Olympiad | 2023</span>
+                    <p>Designed a hypothesis for creating biodegradable plastic using PHB derived from algae. Combined science with environmental action.</p>
+                </div>
+                <div class="glass-card tilt-card project-card reveal-up delay-2 perspective-card">
+                    <h3>JBNSTS JBKMB Scholar</h3>
+                    <span class="date">National Science Talent Search | 2023</span>
+                    <p>Prestigious national scholarship awarded based on a rigorous written exam and interview for academic excellence.</p>
+                </div>
+                <div class="glass-card tilt-card project-card reveal-up delay-3 perspective-card">
+                    <h3>Media Production Team Member</h3>
+                    <span class="date">HKUST ECE Makerspace | Mar 2026 - Present</span>
+                    <p>Produce social media posts and reels for projects and instruments, including creative scriptwriting, photography, and editing.</p>
+                </div>
+                <div class="glass-card tilt-card project-card reveal-up delay-1 perspective-card">
+                    <h3>Public Relations Team Core Member</h3>
+                    <span class="date">GDG on Campus HKUST | Mar 2026 - Present</span>
+                    <p>Manage social media channels, promoting workshops, hackathons, upcoming events, key announcements, and changes in programs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title reveal-right">Skills & Competencies</h2>
+            <div class="skills-container reveal-zoom">
+                <div class="skill-category glass-card tilt-card perspective-card">
+                    <h3><i class="fas fa-code accent-icon"></i> Software & Cloud</h3>
+                    <div class="tags">
+                        <span>Python</span><span>C++</span><span>Lovable</span><span>AWS</span><span>VS Code</span><span>Cursor</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card tilt-card perspective-card">
+                    <h3><i class="fas fa-microchip accent-icon"></i> Hardware & Prototyping</h3>
+                    <div class="tags">
+                        <span>Circuit Design</span><span>Drone Build</span><span>Sensors</span><span>Soldering</span><span>3D Printing</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card tilt-card perspective-card">
+                    <h3><i class="fas fa-flask accent-icon"></i> Laboratory Equipment</h3>
+                    <div class="tags">
+                        <span>Centrifuge</span><span>Gel Electrophoresis</span><span>Spectrophotometer</span><span>Laminar Air Flow</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card tilt-card perspective-card">
+                    <h3><i class="fas fa-palette accent-icon"></i> Creative & Languages</h3>
+                    <div class="tags">
+                        <span>Oil Painting</span><span>Video Editing</span><span>English</span><span>Bengali</span><span>Hindi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="community" class="section">
+            <h2 class="section-title reveal-left">Community Engagement</h2>
+            <div class="glass-card tilt-card community-box reveal-up perspective-card">
+                <ul class="community-list">
+                    <li><i class="fas fa-bolt accent-icon"></i> <strong>Judge, MP Birla Puja Utkarsh Samman (2023):</strong> Evaluated community art and idol installations, developing a critical eye for design and aesthetic presentation.</li>
+                    <li><i class="fas fa-bolt accent-icon"></i> <strong>Art Training, Nehru Children’s Museum (Class 1-9):</strong> Developed a strong foundation in visual arts and composition, like to do oil painting.</li>
+                    <li><i class="fas fa-bolt accent-icon"></i> <strong>Community Service, Birghasha Village (2022-2024):</strong> Organized and donated clothes and essentials, demonstrating project coordination and empathy.</li>
+                    <li><i class="fas fa-bolt accent-icon"></i> <strong>Demonstrator at School Exhibition (Dec 2023):</strong> Demonstrated forensic science activities at the chemistry section such as use of chloroform, gel electrophoresis, blood test for poison.</li>
+                    <li><i class="fas fa-bolt accent-icon"></i> <strong>Volunteering at the Inclusive Peace:</strong> Park Orienteering event held at Ocean Park for SEN students, Hong Kong (27th December 2025).</li>
+                    <li><i class="fas fa-bolt accent-icon"></i> <strong>Blood Drive Ambassador (2026 Spring):</strong> HKUST Connect in partnership with Hong Kong Red Cross Blood Transfusion Service.</li>
+                    <li><i class="fas fa-bolt accent-icon"></i> <strong>Student helper (Feb 2026):</strong> HKUST iLang for Global fiesta x Language and culture day.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title reveal-zoom center-title">Let's Connect</h2>
+            <div class="contact-grid">
+                <a href="https://www.linkedin.com/in/riddhi-senapati-413157387" target="_blank" class="glass-card contact-card tilt-card reveal-left perspective-card">
+                    <i class="fab fa-linkedin contact-icon"></i>
+                    <h3>LinkedIn</h3>
+                    <p>riddhi-senapati</p>
+                </a>
+                <a href="mailto:rsenapati@connect.ust.hk" class="glass-card contact-card tilt-card reveal-up perspective-card">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <h3>Email</h3>
+                    <p>rsenapati@connect.ust.hk</p>
+                </a>
+                <div class="glass-card contact-card tilt-card reveal-right perspective-card">
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                    <h3>Location</h3>
+                    <p>Hong Kong SAR | Kolkata, India</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="reveal-up">
+        <p>&copy; 2026 Riddhi Senapati.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
